@@ -1,0 +1,67 @@
+input{
+border-radius: 10px;
+height:40px;
+width:300px;
+border: 0px;
+margin-top: 50px;
+}
+
+::placeholder{
+    font-size: large;
+    color:black
+}
+button{
+    border-radius: 10px;
+     height:40px;
+    font-size: large;
+    width:40px;
+    border: 0px;
+    margin-left: 20px;
+    background-color: white;
+}
+body {
+    background-color: rgba(190, 217, 226, 0.966);
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    margin: auto;
+  }
+  /* .todo{
+    height:40px;
+    width:370px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+   margin:auto;
+   display: flex;
+   justify-content:space-between;
+   margin-top:20px;
+  } */
+
+  .todo {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .todo > div {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      background-color:red;
+      padding: 8px 20px;
+      width: 50%;
+      margin: auto;
+      border-radius: 10px;
+      margin-bottom: 5px;
+  }
+
+  .todo > div > p {
+    margin: 0;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+  .todo > div > input {
+      margin: 0;
+      width: 30px;
+  }
